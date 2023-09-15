@@ -29,6 +29,39 @@ ul {
     list-style: none;
 }
 
+p {
+    margin: .75rem 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+}
+
+
+.py-1 {
+    padding: 1.5rem 0;
+}
+
+.py-2 {
+    padding: 2rem 0;
+}
+
+.py-3 {
+    padding: 3rem 0;
+}
+
+.p-1 {
+    padding: 1.5rem;
+}
+
+.p-2 {
+    padding: 2rem;
+}
+
+.p-3 {
+    padding: 3rem;
+}
+
 textarea {
     resize: vertical;
 }
@@ -50,6 +83,7 @@ ul.list li {
     border: none;
     padding: .5rem 2rem;
     border-radius: .7rem;
+    transition: background .3s;
 }
 
 .btn:hover {
@@ -99,6 +133,7 @@ ul.list li {
 .container {
     width: 1100px;
     margin: 0 auto;
+    padding: 0 2rem;
 }
 
 .scheme {
@@ -134,6 +169,37 @@ ul.list li {
 .page-section {
     padding: 40px 0;
 }
+
+.lead {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.l-heading {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    line-height: 1.1;
+}
+
+.m-heading {
+    font-size: 2.5rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+
+#who {
+    display: flex;
+}
+
+#who>div {
+    flex: 1;
+}
+
+#who .who-img {
+    background: url('../images/who-img.webp') no-repeat center center;
+    background-size: cover;
+}
+
 
 .section-heading {
     font-size: 1.8rem;
