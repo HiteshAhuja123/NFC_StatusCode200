@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Blog</title>
+    <!-- Add Bootstrap CSS link here -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        :root{
+            --primary-color:#C84630;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.4;
+            background-color: var(--primary-color);
+            color: #333;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .text-primary {
+            color: #fff;
+        }
+
+        .m-heading {
+            font-size: 2rem;
+            margin-bottom: .75rem;
+            line-height: 1.1;
+        }
+
+        .blog-post {
+            margin-bottom: 1rem;
+        }
+
+        .blog-post a {
+            color: var(--primary-color);
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- BLOG SECTION -->
+    <section id="blog">
+        <div class="container">
+            <h3 class="m-heading text-center">
+                <span class="text-primary">Financial</span> Blog
+            </h3>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card blog-post">
+                        <div class="card-body">
+                            <h5 class="card-title">5 Tips for Effective Budgeting</h5>
+                            <p class="card-text">If you want to take control of your finances, budgeting is key. Learn five tips for creating and sticking to a budget <a href="#">Read More</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card blog-post">
+                        <div class="card-body">
+                            <h5 class="card-title">Investing for Beginners: Where to Start</h5>
+                            <p class="card-text">Interested in investing but don't know where to begin? This guide will help beginners take their first steps <a href="#">Read More</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card blog-post">
+                        <div class="card-body">
+                            <h5 class="card-title">The Importance of Emergency Funds</h5>
+                            <p class="card-text">Discover why having an emergency fund is crucial for financial stability and how to build one <a href="#">Read More</a></p>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+ 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
