@@ -136,11 +136,60 @@ ul.list li {
     padding: 0 2rem;
 }
 
-.scheme {
+/* .scheme {
     background: #333 url('../images/schemes_2.jpg') no-repeat center center;
-    background-size: cover;
+    background-size: contain;
+    background-color: white;
     color: #FFF;
-    height: 100vh; /*vh - viewport height vw - viewport width*/
+    height: 100vh; /*vh - viewport height vw - viewport width
+} */
+
+.scheme {
+    /* margin: 40px; */
+    /* padding: 40px; */
+    background-color: #F4F4F4;
+    display: flex;
+    justify-content: space-around;
+}
+
+.para {
+    
+    margin-left: 110px;
+    margin-right: 100px;
+    /* margin-top: 50px;
+    margin-bottom: 50px; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.para1 {
+    height: 172px;
+    background-color: #157821;
+    color: white;
+}
+
+.image1{
+    margin-top: 150px;
+    margin-left: 100px;
+    height: 50%;
+}
+
+.image2{
+    margin-right: 80px;
+    height: 50%;
+    width: 40%;
+}
+
+.edu {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+    padding: 30px;
+}
+
+.image {
+    width:70%;
+    margin-left: 170px;
 }
 
 .navbar-brand {
