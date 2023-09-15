@@ -17,14 +17,6 @@ body {
     line-height: 1.4;
 }
 
-/* .Logo {
-    font-size: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
-} */
-
-
-
 img {
     max-width: 100%;
 }
@@ -67,6 +59,11 @@ ul.list li {
 .btn-primary {
     background-color: var(--primary-color);
     color: var(--white-color);
+}
+.btn-primary:link,
+.btn-primary:visited {
+    color: var(--white-color);
+    background-color: var(--primary-color);
 }
 
 .btn-dark {
@@ -111,6 +108,9 @@ ul.list li {
     height: 100vh; /*vh - viewport height vw - viewport width*/
 }
 
+.navbar-brand {
+    font-size: 3rem;
+}
 .showcase {
     background: #333 url('../images/showcase.jpg') no-repeat center center;
     background-size: cover;
