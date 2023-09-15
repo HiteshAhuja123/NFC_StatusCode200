@@ -57,3 +57,51 @@
     grid-template-columns: auto auto auto;
     grid-gap: 1rem;
 }
+
+.gpay-showcase {
+    background: #333 url('../images/upi-image.jpg') no-repeat center center;
+    background-size: cover;
+    color: #FFF;
+    height: 100vh;
+}
+
+.article-section {
+    position: relative;
+    margin: 30px auto;
+    padding: 50px;
+    width: 500px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.article-section::after,
+.article-section::before {
+    content: ' ';
+    display: block;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    box-shadow: inherit;
+    z-index: -1;
+    transform: rotate(2deg);
+}
+
+.article-section::before {
+    transform: rotate(-1deg);
+}
+
+.article-section p>a:link,
+.article-section p>a:visited {
+    color: var(--primary-color);
+}
+
+.primary-body {
+    background-color: var(--primary-color);
+}

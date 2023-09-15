@@ -4,52 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
-    <style>
-        html {
-            background: #C06E52;
-        }
+    <title>DhanShiksha</title>
 
-        article {
-            position: relative;
-            margin: 30px auto;
-            padding: 50px;
-            width: 500px;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            text-align: justify;
-            background: #fff;
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-            position: relative;
-        }
+    <!--BOOTSTRAP CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-        article::after,
-        article::before {
-            content: ' ';
-            display: block;
+    <!-- VENDOR CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: inherit;
-            box-shadow: inherit;
-            z-index: -1;
-            transform: rotate(2deg);
-        }
-
-        article::before {
-            transform: rotate(-1deg);
-        }
-    </style>
+    <!-- PROJECT LEVEL CSS -->
+    <link rel="stylesheet" href="CSS/others.css">
+    <link rel="stylesheet" href="CSS/main.css">
 </head>
-<body>
-    <article>
+<body class="primary-body">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a id="Logo" class="navbar-brand" href="index.html">DhanShiksha</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="btn btn-primary" href="aboutus.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html #contactUs">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <a href="login.html" class="btn btn-white m-1">Login</a>
+          <a href="signup.html" class="btn btn-primary m-1">Signup</a>
+        </div>
+    </nav>
+
+    <article class="article-section">
         <h1>About Us</h1>
         <p>Welcome to Financial Experts, your trusted source for all things related to personal finance. Our mission is to empower individuals and families to make informed financial decisions, achieve their financial goals, and secure their financial future.</p>
         <p>With years of experience in the financial industry, our team of experts is dedicated to providing you with valuable insights, tips, and resources to help you manage your money wisely. Whether you're looking to save for a major purchase, invest for retirement, or simply improve your financial literacy, we've got you covered.</p>
         <p>At Financial Experts, we believe that financial education is the key to financial success. That's why we offer a wide range of informative articles, guides, and tools to help you navigate the complex world of finance. We're committed to making financial knowledge accessible and understandable for everyone.</p>
-        <p>Thank you for choosing Financial Experts as your financial resource. We're here to support you on your journey toward financial security and prosperity. If you have any questions or feedback, please don't hesitate to <a href="contact.html">contact us</a>.</p>
+        <p>Thank you for choosing Financial Experts as your financial resource. We're here to support you on your journey toward financial security and prosperity. If you have any questions or feedback, please don't hesitate to <a href="index.html #contactUs">contact us</a>.</p>
     </article>
 </body>
 </html>
