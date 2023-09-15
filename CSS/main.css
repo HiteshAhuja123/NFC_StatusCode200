@@ -216,6 +216,9 @@ ul.list li {
     border-radius: .5rem;
     transition: all .3s;
 }
+.items .item>a {
+    color: var(--dark-color);
+}
 
 .items .item h4 {
     font-size: 1.5rem;
@@ -244,6 +247,9 @@ ul.list li {
 .items .item:hover i {
     background-color: var(--white-color);
     color: var(--primary-color);
+}
+.items .item:hover a {
+    color: var(--white-color);
 }
 
 .dark-section {

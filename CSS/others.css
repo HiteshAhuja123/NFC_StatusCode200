@@ -1,5 +1,18 @@
+:root {
+    --primary-color: #C06E52;
+    --dark-color: #333;
+    --white-color: #FFF;
+}
+
 #blog-showcase {
     background: #333 url('../images/blog.jpeg') no-repeat center center;
+    background-size: cover;
+    color: #FFF;
+    height: 100vh;
+}
+
+#bank-showcase {
+    background: #333 url('../images/bank.jpg') no-repeat center center;
     background-size: cover;
     color: #FFF;
     height: 100vh;
@@ -20,12 +33,13 @@
 }
 
 .faq-item {
-    background-color: #FFF;
+    background-color: var(--primary-color);
+    color: var(--white-color);
     padding: 1rem;
     border-radius: 5px;
     margin-bottom: 1rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border: #333 1px solid ;
+    border: var(--white-color) 1px solid ;
 }
 
 .faq-item h4 {
@@ -36,4 +50,10 @@
 
 .faq-item p {
     font-size: 1rem;
+}
+
+.faq-items {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 1rem;
 }
