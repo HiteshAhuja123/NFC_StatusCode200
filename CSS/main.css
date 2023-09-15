@@ -58,22 +58,25 @@ ul.list li {
 
 .btn-primary {
     background-color: var(--primary-color);
-    color: #FFF;
+    color: var(--white-color);
 }
 
 .btn-dark {
     background-color: var(--dark-color);
-    color: #FFF;
+    color: var(--white-color);
 }
 
 .btn-dark:hover {
-    background-color: #444;
+    background-color: var(--white-color);
+    color: var(--dark-color);
+    transition: .3s;
 }
 
 .btn-primary:hover {
     background-color: var(--white-color);
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
+    transition: .3s;
 }
 
 .btn-white {
@@ -85,6 +88,7 @@ ul.list li {
 .btn-white:hover {
     background-color: var(--primary-color);
     color: var(--white-color);
+    transition: .3s;
 }
 
 .container {
@@ -95,7 +99,7 @@ ul.list li {
 .showcase {
     background: #333 url('../images/showcase.jpg') no-repeat center center;
     background-size: cover;
-    color: #FFF;
+    color: var(--white-color);
     height: 100vh; /*vh - viewport height vw - viewport width*/
 }
 
@@ -131,9 +135,6 @@ ul.list li {
     border-radius: .5rem;
     transition: all .3s;
 }
-.items .item:hover {
-    cursor: pointer;
-}
 
 .items .item h4 {
     font-size: 1.5rem;
@@ -148,53 +149,40 @@ ul.list li {
     width: 60px;
     height: 60px;
     background-color: var(--primary-color);
-    color: #FFF;
+    color: var(--white-color);
     line-height: 60px;
     border-radius: 100%;
 }
 
 #what .items .item:hover {
     background-color: var(--primary-color);
-    color: #FFF;
+    color: var(--white-color);
+    cursor: pointer;
 }
 
 .items .item:hover i {
-    background-color: #FFF;
+    background-color: var(--white-color);
     color: var(--primary-color);
 }
 
 .dark-section {
     background-color: var(--dark-color);
-    color: #FFF;
+    color: var(--white-color);
 }
 
 .mb-1 {
     margin-bottom: 1rem;
 }
-#who {
-    display: flex;
-}
-#who .who-img {
-    background: url('../images/people.jpg') no-repeat center center;
-    background-size: cover;
-}
-#who .page-section {
-    padding-left: 40px;
-    padding-right: 40px;
-}
-#who>* {
-    flex: 1;
-}
 
 .primary-section {
     background-color: var(--primary-color);
-    color: #FFF;
+    color: var(--white-color);
 }
 
 .footer-content {
     background-color: var(--dark-color);
     width: 100%;
-    color: #FFF;
+    color: var(--white-color);
     height: 100px;
 }
 
