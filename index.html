@@ -34,7 +34,7 @@
                 <a class="nav-link" href="">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">Contact Us</a>
+                <a class="nav-link" href="#contactUs">Contact Us</a>
               </li>
             </ul>
           </div>
@@ -105,8 +105,49 @@
             </div>
         </div>
     </section>
-
-    <footer class="footer-content text-center">
+    <section id="contactUs" class="m-3">
+        <h3>Contact Us</h3>
+        <p>If you have any questions, suggestions, or feedback, please feel free to reach out to us. We are here to assist you.</p>
+        <h3>Contact Information</h3>
+        <ul>
+            <li>Email: <a href="mailto:contact@financialexperts.com">contact@financialexperts.com</a></li>
+            <li>Phone: +91 8276523410</li>
+            <li>Address: 123 Financial Street, Andheri, India</li>
+        </ul>
+        <form>
+            <div class="row mb-3">
+              <label for="inputName3" class="col-sm-2 col-form-label">Name</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="inputName3">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="inputPhone3" class="col-sm-2 col-form-label">Phone</label>
+              <div class="col-sm-10">
+                <input type="number" class="form-control" id="inputPhone3">
+              </div>
+            </div>
+            <fieldset class="row mb-3">
+              <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
+              <div class="col-sm-10">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                  <label class="form-check-label" for="gridRadios1">
+                    Male
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                  <label class="form-check-label" for="gridRadios2">
+                    Female
+                  </label>
+                </div>
+              </div>
+            </fieldset>
+            <button type="submit" class="btn btn-primary m-1">Submit</button>
+          </form>
+    </section>
+    <footer class="footer-content text-center mt-3">
         <p>
             Copyright &copy; 2023 <span class="primary-color">Logo</span>, All Rights Reserved!
         </p>
