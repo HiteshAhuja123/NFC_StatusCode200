@@ -1,0 +1,56 @@
+body {
+    /* background-color: aqua; */
+    /* background-image: url("12.jpg"); */
+    background-color: #C06E52; 
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+a {
+    color: #212121;
+    text-decoration: none;
+}
+
+.container {
+    padding-top: 20vh;
+}
+/* Helper css */
+
+.text-center {
+    text-align: center;
+}
+/* Signup CSS */
+
+.signup {
+    background-color: #EFE6EA;
+    padding: 50px;
+}
+
+.left-section>div {
+    padding: 3em 0; /*1rem = 16px;*/
+    color: #ffffff;
+}
+
+.btn.btn-black {
+    background-color:#212121;
+    color: #ffffff;
+}
+
+.btn.btn-black:hover {
+    transition: .3s;
+    border: 1px solid #212121;
+    color: #212121;
+    background-color: #FFF;
+}
+/* Login page */
+.details {
+    margin-right: 30px;
+}
+
+#passforgot {
+    text-align: right;
+}
+
+#loginHere>a {
+    color: #C06E52;
+}
