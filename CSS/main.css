@@ -17,6 +17,14 @@ body {
     line-height: 1.4;
 }
 
+/* .Logo {
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+} */
+
+
+
 img {
     max-width: 100%;
 }
@@ -94,6 +102,13 @@ ul.list li {
 .container {
     width: 1100px;
     margin: 0 auto;
+}
+
+.scheme {
+    background: #333 url('../images/schemes_2.jpg') no-repeat center center;
+    background-size: cover;
+    color: #FFF;
+    height: 100vh; /*vh - viewport height vw - viewport width*/
 }
 
 .showcase {
