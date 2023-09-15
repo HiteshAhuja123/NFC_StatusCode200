@@ -1,0 +1,6 @@
+#blog-showcase {
+    background: #333 url('../images/blog.jpeg') no-repeat center center;
+    background-size: cover;
+    color: #FFF;
+    height: 100vh;
+}

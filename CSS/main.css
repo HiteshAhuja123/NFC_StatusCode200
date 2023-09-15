@@ -131,6 +131,9 @@ ul.list li {
     border-radius: .5rem;
     transition: all .3s;
 }
+.items .item:hover {
+    cursor: pointer;
+}
 
 .items .item h4 {
     font-size: 1.5rem;
