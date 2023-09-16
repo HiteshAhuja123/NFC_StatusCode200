@@ -106,60 +106,44 @@
         </div>
     </section>
 
-    <section id="contactUs" class="primary-section mt-3">
-      <div class="cont">  
-      <div class="contain p-2">
-            <h4 class="con">Contact Us</h4>
-            <p class="common">If you have any questions, suggestions, or feedback, please feel free to reach out to us. We are here to assist you.</p>
-            <h4 class="common">Contact Information</h4>
-            <ul>
-                <li class="common">Email: <a href="mailto:contact@financialexperts.com" class="Email">contact@financialexperts.com</a></li>
-                <li class="common">Phone: +91 8276523410</li>
-                <li class="common">Address: 123 Financial Street, Andheri, India</li>
-            </ul>
-        </div>
-        <form class="p-2">
-            <div class="row mb-3">
-              <label for="inputName3" class="col-sm-2 col-form-label">Name</label>
-              <div class="col-sm-10">
-                <input type="text" class="form-control" id="inputName3">
-              </div>
-            </div>
-            <div class="row mb-3">
-              <label for="inputPhone3" class="col-sm-2 col-form-label">Phone</label>
-              <div class="col-sm-10">
-                <input type="number" class="form-control" id="inputPhone3">
-              </div>
-            </div>
-            <fieldset class="row mb-3">
-              <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
-              <div class="col-sm-10">
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                  <label class="form-check-label" for="gridRadios1">
-                    Male
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                  <label class="form-check-label" for="gridRadios2">
-                    Female
-                  </label>
-                </div>
-              </div>
-            </fieldset>
-            <button type="submit" class="btn btn-dark">Submit</button>
-          </form>
-      </div>
-    </section>
-    
 
+    <div id="contactUs" class="p-3 dark-section contact-form">
+      <h2 class="m-heading">Contact Us</h2>
+      <p>Please use the form below to contact us</p>
+
+      <form>
+          <div class="form-group p-3">
+              <label for="name">Name</label>
+              <input class="form-control" type="text" id="name" placeholder="Enter Name" title="Please insert name">
+          </div>
+
+          <div class="form-group p-3">
+              <label for="email">Email</label>
+              <input class="form-control" type="text" id="email" placeholder="Enter email" title="Please insert email">
+          </div>
+
+          <div class="form-group p-3">
+              <label for="phone">Phone</label>
+              <input class="form-control" type="text" id="phone" placeholder="Enter Phone Number" title="Please insert phone number">
+          </div>
+
+          <div class="form-group p-3">
+              <label for="message">Message</label>
+              <textarea class="form-control" type="text" id="name" placeholder="Enter Message" title="Please insert message"></textarea>
+          </div>
+
+          <div class="form-group p-3">
+              <input class="form-control btn-primary" type="submit" title="Send A Message" value="Send">
+          </div>
+      </form>
+  </div>
+  <div>
     <footer class="footer-content text-center">
       <p>
           Copyright &copy; 2023 <span class="primary-color">DhanShiksha</span>, All Rights Reserved!
       </p>
     </footer>
-
+  </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

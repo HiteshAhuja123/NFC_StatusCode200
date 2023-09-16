@@ -97,6 +97,7 @@ ul.list li {
 .btn-primary {
     background-color: var(--primary-color);
     color: var(--white-color);
+    border-color: var(--primary-color);
 }
 .btn-primary:link,
 .btn-primary:visited {
@@ -209,6 +210,7 @@ ul.list li {
     background-size: cover;
     color: var(--white-color);
     height: 100vh; /*vh - viewport height vw - viewport width*/
+    margin-top: 92px;
 }
 
 .gpay-showcase {
@@ -275,7 +277,7 @@ ul.list li {
 }
 .items .item {
     margin: 0 1rem;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: .5rem;
     transition: all .3s;
 }
@@ -351,7 +353,7 @@ ul.list li {
 }
 
 #contactUs {
-    background-color: beige;
+    background-color: var(--dark-color);
     padding: 45px;
     
 }
