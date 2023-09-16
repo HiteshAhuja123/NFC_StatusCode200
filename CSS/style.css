@@ -27,7 +27,7 @@ a {
 }
 
 .left-section>div {
-    padding: 3em 0; /*1rem = 16px;*/
+   /* padding: 3em 0; /*1rem = 16px;*/
     color: #ffffff;
 }
 
@@ -43,8 +43,14 @@ a {
     background-color: #FFF;
 }
 /* Login page */
+ .logo>h1 {
+    font-size: 3rem;
+    padding: 1rem;
+ }
+
 .details {
     margin-right: 30px;
+    padding: 2rem;
 }
 
 #passforgot {

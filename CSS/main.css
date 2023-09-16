@@ -97,6 +97,7 @@ ul.list li {
 .btn-primary {
     background-color: var(--primary-color);
     color: var(--white-color);
+    border-color: var(--primary-color);
 }
 .btn-primary:link,
 .btn-primary:visited {
@@ -205,10 +206,16 @@ ul.list li {
     font-size: 3rem;
 }
 .showcase {
+    /* margin-top: ; */
     background: #333 url('../images/showcase.jpg') no-repeat center center;
     background-size: cover;
     color: var(--white-color);
     height: 100vh; /*vh - viewport height vw - viewport width*/
+    margin-top: 92px;
+}
+
+.gpay-showcase {
+    margin-top: 92px;
 }
 
 .showcase-content {
@@ -271,7 +278,7 @@ ul.list li {
 }
 .items .item {
     margin: 0 1rem;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: .5rem;
     transition: all .3s;
 }
@@ -325,8 +332,8 @@ ul.list li {
     margin-bottom: 30px;
 }
 
-.common {
-    margin: 15px;
+.ml-7 {
+    margin-left: 70px;
 }
 
 .col-sm-2 {
@@ -347,7 +354,7 @@ ul.list li {
 }
 
 #contactUs {
-    background-color: beige;
+    background-color: var(--dark-color);
     padding: 45px;
     
 }
