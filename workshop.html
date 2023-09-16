@@ -5,67 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Upcoming Workshops</title>
+
+    <!--ANIMATE CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!--BOOTSTRAP CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/workshop.css">
 </head>
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-    :root {
-        --primary-color: beige;
-    }
-
-    body {
-        font-family: 'Roboto', sans-serif;
-        line-height: 1.4;
-        background-color: var(--primary-color);
-        color: #333;
-        margin: 0;
-        padding: 0;
-    }
-
-    .container {
-        max-width: 1100px;
-        margin: 0 auto;
-        padding: 0 2rem;
-    }
-
-    .text-center {
-        text-align: center;
-    }
-
-    .text-primary {
-        color: #fff;
-    }
-
-    .m-heading {
-        font-size: 60px;
-        margin: 60px;
-        line-height: 1.1;
-    }
-
-    .workshop-items {
-        margin-top: 2rem;
-    }
-
-    .workshop-item {
-        background-color: #FFF;
-        padding: 1rem;
-        border-radius: 5px;
-        margin-bottom: 1rem;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        border: #333 1px solid;
-    }
-
-    .workshop-item h4 {
-        font-size: 1.2rem;
-        font-weight: 500;
-        margin-bottom: 0.5rem;
-    }
-
-    .workshop-item p {
-        font-size: 1rem;
-    }
-</style>
-
 <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a id="Logo" class="navbar-brand" href="index.html">DhanShiksha</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html #contactUs">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <a href="login.html" class="btn btn-white m-1">Login</a>
+          <a href="signup.html" class="btn btn-primary m-1">Signup</a>
+        </div>
+    </nav>
     <!-- WORKSHOP SECTION -->
     <section id="workshops">
         <div class="container">
@@ -73,39 +47,75 @@
                 Upcoming Workshops
             </h3>
             <div class="workshop-items">
-                <div class="workshop-item">
-                    <h4>Workshop 1: Web Development Fundamentals</h4>
-                    <p><strong>Location:</strong> Virtual Online Event</p>
-                    <p><strong>Date & Time:</strong> November 15, 2023, 10:00 AM - 1:00 PM</p>
-                    <p><strong>Registration Fee:</strong> ₹250</p>
+                <div class="col-12 row justify-content-start">
+                    <div class="workshop-item wow animate__fadeInLeft col-6">
+                        <h4>Workshop 1: Financial Security</h4>
+                        <p><strong>Location:</strong> Virtual Online Event</p>
+                        <p><strong>Date & Time:</strong> November 15, 2023, 10:00 AM - 1:00 PM</p>
+                        <p><strong>Registration Fee:</strong> ₹250</p>
+                    </div>
+                    <div class="col-6 workshop-img">
+                        <img src="images/Financial_Security.avif" alt="" width="400" height="200">
+                    </div>
                 </div>
-                <div class="workshop-item">
-                    <h4>Workshop 2: Digital Marketing Strategies</h4>
-                    <p><strong>Location:</strong> XYZ Conference Center, Bandra</p>
-                    <p><strong>Date & Time:</strong> December 5, 2023, 2:00 PM - 5:00 PM</p>
-                    <p><strong>Registration Fee:</strong> ₹500</p>
+                <div class="col-12 row justify-content-start">
+                    <div class="col-6 workshop-img">
+                        <img src="images/Digital_Finance.jpg" alt="" width="400" height="200">
+                    </div>
+                    <div class="workshop-item wow animate__fadeInRight col-6">
+                        <h4>Workshop 2: Digital Finance</h4>
+                        <p><strong>Location:</strong> XYZ Conference Center, Bandra</p>
+                        <p><strong>Date & Time:</strong> December 5, 2023, 2:00 PM - 5:00 PM</p>
+                        <p><strong>Registration Fee:</strong> ₹500</p>
+                    </div>
                 </div>
-                <div class="workshop-item">
-                    <h4>Workshop 3: Graphic Design Masterclass</h4>
-                    <p><strong>Location:</strong> Creative Studio, Ghatkopar</p>
-                    <p><strong>Date & Time:</strong> January 10, 2024, 9:30 AM - 4:30 PM</p>
-                    <p><strong>Registration Fee:</strong> ₹350</p>
+                <div class="col-12 row justify-content-start">
+                    <div class="workshop-item wow animate__fadeInLeft col-6">
+                        <h4>Workshop 4: Financial Planning for Beginners</h4>
+                        <p><strong>Location:</strong> Community Center, Bhiwandi</p>
+                        <p><strong>Date & Time:</strong> February 20, 2024, 11:00 AM - 2:00 PM</p>
+                        <p><strong>Registration Fee:</strong> ₹200</p>
+                    </div>
+                    <div class="col-6 workshop-img">
+                        <img src="images/financial_safety.avif" alt="" width="400" height="200">
+                    </div>
                 </div>
-                <div class="workshop-item">
-                    <h4>Workshop 4: Financial Planning for Beginners</h4>
-                    <p><strong>Location:</strong> Community Center, Bhiwandi</p>
-                    <p><strong>Date & Time:</strong> February 20, 2024, 11:00 AM - 2:00 PM</p>
-                    <p><strong>Registration Fee:</strong> ₹200</p>
+                <div class="col-12 row justify-content-start">
+                    <div class="col-6 workshop-img">
+                        <img src="images/savings.jpg" alt="" width="400" height="200">
+                    </div>
+                    <div class="workshop-item wow animate__fadeInRight col-6">
+                        <h4>Workshop 3: Savings and Investing Workshop</h4>
+                        <p><strong>Location:</strong> Creative Studio, Ghatkopar</p>
+                        <p><strong>Date & Time:</strong> January 10, 2024, 9:30 AM - 4:30 PM</p>
+                        <p><strong>Registration Fee:</strong> ₹350</p>
+                    </div>
                 </div>
-                <div class="workshop-item">
-                    <h4>Workshop 5: Mobile App Development Workshop</h4>
-                    <p><strong>Location:</strong> Tech Hub, Kalyan</p>
-                    <p><strong>Date & Time:</strong> March 5, 2024, 1:30 PM - 4:30 PM</p>
-                    <p><strong>Registration Fee:</strong> ₹400</p>
+                <div class="col-12 row justify-content-start">
+                    <div class="workshop-item wow animate__fadeInLeft col-6">
+                        <h4>Workshop 5:Retirement Planning Workshop</h4>
+                        <p><strong>Location:</strong> Tech Hub, Kalyan</p>
+                        <p><strong>Date & Time:</strong> March 5, 2024, 1:30 PM - 4:30 PM</p>
+                        <p><strong>Registration Fee:</strong> ₹400</p>
+                    </div>
+                    <div class="col-6 workshop-img">
+                        <img src="images/retirement.jpg" alt="" width="400" height="200">
+                    </div>
                 </div>
+
             </div>
         </div>
+        <footer class="footer-content text-center">
+            <p>
+                Copyright &copy; 2023 <span class="primary-color">DhanShiksha</span>, All Rights Reserved!
+            </p>
+        </footer>
     </section>
     <!-- /WORKSHOP SECTION -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        wow = new WOW({ animateClass: 'animate__animated'});
+        wow.init();
+    </script>
 </body>
 </html>
