@@ -112,6 +112,7 @@ ul.list li {
 .btn-dark:hover {
     background-color: var(--white-color);
     color: var(--dark-color);
+    border: 1px solid var(--dark-color);
     transition: .3s;
 }
 
