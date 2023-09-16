@@ -37,6 +37,10 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
 }
 
+h3 {
+    font-size: 50px;
+}
+
 
 .py-1 {
     padding: 1.5rem 0;
@@ -143,6 +147,10 @@ ul.list li {
     color: #FFF;
     height: 100vh; /*vh - viewport height vw - viewport width
 } */
+
+#clients {
+    background-color: var(--primary-color);
+}
 
 .scheme {
     /* margin: 40px; */
@@ -251,8 +259,9 @@ ul.list li {
 
 
 .section-heading {
-    font-size: 1.8rem;
-    margin-bottom: 2rem;
+    font-size: 50px;
+    margin-top: 35px;
+    margin-bottom: 30px;
 }
 
 .items {
@@ -301,6 +310,32 @@ ul.list li {
     color: var(--white-color);
 }
 
+.con {
+    font-size: 35px;
+    margin-left: 10px;
+    /* margin: 20px; */
+    /* margin-top: 40px; */
+    margin-bottom: 40px;
+}
+
+.cont {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 30px;
+}
+
+.common {
+    margin: 15px;
+}
+
+.col-sm-2 {
+    margin-left: 15px;
+}
+
+/* .Email{
+    color:  black;
+} */
+
 .dark-section {
     background-color: var(--dark-color);
     color: var(--white-color);
@@ -310,9 +345,10 @@ ul.list li {
     margin-bottom: 1rem;
 }
 
-.primary-section {
-    background-color: var(--primary-color);
-    color: var(--white-color);
+#contactUs {
+    background-color: beige;
+    padding: 45px;
+    
 }
 
 .footer-content {
