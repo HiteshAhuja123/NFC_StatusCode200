@@ -204,10 +204,15 @@ ul.list li {
     font-size: 3rem;
 }
 .showcase {
+    /* margin-top: ; */
     background: #333 url('../images/showcase.jpg') no-repeat center center;
     background-size: cover;
     color: var(--white-color);
     height: 100vh; /*vh - viewport height vw - viewport width*/
+}
+
+.gpay-showcase {
+    margin-top: 92px;
 }
 
 .showcase-content {
@@ -324,8 +329,8 @@ ul.list li {
     margin-bottom: 30px;
 }
 
-.common {
-    margin: 15px;
+.ml-7 {
+    margin-left: 70px;
 }
 
 .col-sm-2 {
